@@ -2,7 +2,7 @@ Name: first workflow
 On: Workflow_dispatch
 Jobs:
   First_Job
-  Runs on: ubunt-latest
+  Runs on: windows-latest
   steps:
    -Name: Print greeting
    run: echo "hello world"

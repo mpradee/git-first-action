@@ -2,9 +2,9 @@ Name: first workflow
 On: Workflow_dispatch
 Jobs:
   First_Job
-  Runs-on: windows-latest
+  runs-on: windows-latest
   steps:
    -Name: Print greeting
-   run: echo "hello world"
+    run: echo "hello world"
    -Name: Print good bye
-   run: echo "hello bye"
+    run: echo "hello bye"
